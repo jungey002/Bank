@@ -1,0 +1,123 @@
+.mynav{
+  font-size: 20px !important;
+}
+
+.icon-area svg{
+  margin-top: 40px;
+  width:50px;
+  height:50px;
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+  color: #003c71; 
+  font-weight: bold;
+}
+.footer {
+  background-color: #003b6f; /* BMO Bank blue */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30PX;
+}
+
+.footer a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer p:first-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* About.css */
+
+.about-container {
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-family: 'Arial', sans-serif;
+  color: #003a6c; /* BMO's dark blue color */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about-text {
+  font-family: 'Arial', sans-serif;
+  color: #f00c14; /* Dark grey text color */
+  line-height: 1.6;
+  text-align: center;
+}
+/* SignUp.css */
+
+.signup-container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px; /* Increased width for additional fields */
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+  font-family: 'Arial', sans-serif;
+  color: #003a6c; /* BMO's dark blue color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.signup-button {
+  background-color: #003a6c; /* BMO's dark blue color */
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-button:hover {
+  background-color: #002c4a; /* Slightly darker blue for hover effect */
+}
